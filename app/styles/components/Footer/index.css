@@ -1,0 +1,89 @@
+.site-status {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: #f5f5f5;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #999;
+  padding: 10px 5%;
+  margin-top: auto;
+}
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    padding: 10px 15%;
+  }
+}
+.footer-info {
+  padding: 5px;
+}
+.daily-read {
+  padding: 0 2px;
+  color: #6a6a6a;
+}
+.icp-link {
+  color: #999;
+}
+.friend-link a {
+  padding: 0 2px;
+}
+.site-link span {
+  width: 60px;
+}
+.site-link {
+  display: flex;
+}
+sub {
+  font-size: 12px;
+}
+.my-shake {
+  animation: my-face 1.5s infinite ease;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+@keyframes my-face {
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg) scale(1);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg) scale(1.1);
+  }
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg) scale(1.2);
+  }
+  30% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg) scale(1.3);
+  }
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg) scale(1.4);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg) scale(1.5);
+  }
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg) scale(1.4);
+  }
+  70% {
+    -webkit-transform: translate(2px, 1px) rotate(-1deg) scale(1.3);
+  }
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg) scale(1.2);
+  }
+  90% {
+    -webkit-transform: translate(2px, 2px) rotate(0deg) scale(1.1);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px) rotate(-1deg) scale(1);
+  }
+}
+.site-timing,
+.site-timing span {
+  display: flex;
+  align-items: center;
+}
